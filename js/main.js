@@ -4,14 +4,26 @@
 
     var tools = [
         {
-            label: "DPI Calculator for Android"
-            , url: "http://jennift.com/dpical.html"
+            label: "DPI Calculator for Android",
+            url: "http://jennift.com/dpical.html"
         }
         , {
-            label: "Hex Color Tool"   
-            , url: "http://hexcolortool.com/"
+            label: "Hex Color Tool",
+            url: "http://hexcolortool.com/"
         }
-        ,{
+        , {
+            label: "RGB-to-Hex Conversion",
+            url: "http://www.javascripter.net/faq/rgbtohex.htm"
+        }
+        , {
+            label: "Json Formatter & Validator",
+            url: "http://jsonformatter.curiousconcept.com/"
+        }
+        , {
+            label: "Android Arsenal",
+            url: "https://android-arsenal.com/"
+        }
+        , {
             label: "Android Holo Colors Generator",
             url: "http://android-holo-colors.com/"
         }
@@ -25,10 +37,10 @@
 
     var $menu = $('#menu_list');
 
-    $.each(tools, function( i, value ) {
+    $.each(tools, function (i, value) {
         var $item = $("<li><a href=>" + value.label + "</a></li>");
         $item.click(function () {
-            $mainContent.load(value.url);
+            $mainContent.attr('src', value.url);
         });
         $menu.append($item);
     });
