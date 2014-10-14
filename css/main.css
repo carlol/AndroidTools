@@ -16,6 +16,6 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    top: 20px;
+    top: 40px;
     height: expression(document.body.clientHeight);
 }

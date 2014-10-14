@@ -18,7 +18,7 @@
     var $menu = $('#menu_list');
 
     $.each(tools, function( i, value ) {
-        var $item = $("<li>" + value.label + "</li>");
+        var $item = $("<li><a href=>" + value.label + "</a></li>");
         $item.click(function () {
             $mainContent.attr('src', value.url);
         });
