@@ -45,5 +45,10 @@
         $menu.append($item);
     });
 
+    
+    // init
+    $(document).ready(function(){
+       $mainContent.attr('height', $(window).height());
+    });
 
 }).apply(this);

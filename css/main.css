@@ -6,16 +6,12 @@ html {
     overflow: hidden;
 }
 #header {
-    position: fixed;
-    left: 0;
-    top: 3px;
-    right: 0;
+    display: block;
+    float: left;
+    width: 20%;
 }
 #content {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 40px;
-    height: expression(document.body.clientHeight);
+    display: block;
+    float: left;
+    width: 80%;
 }
