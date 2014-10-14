@@ -4,6 +4,14 @@
 
     var tools = [
         {
+            label: "DPI Calculator for Android"
+            , url: "http://jennift.com/dpical.html"
+        }
+        , {
+            label: "Hex Color Tool"   
+            , url: "http://hexcolortool.com/"
+        }
+        ,{
             label: "Android Holo Colors Generator",
             url: "http://android-holo-colors.com/"
         }
