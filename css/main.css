@@ -1,0 +1,17 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#header {
+    display: block;
+    float: left;
+    width: 20%;
+}
+#content {
+    display: block;
+    float: left;
+    width: 80%;
+}
