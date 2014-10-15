@@ -36,10 +36,13 @@
     var $mainContent = $('#main_content');
 
     var $menu = $('#menu_list');
+    
+    var $bgImage = $('#bg');
 
     $.each(tools, function (i, value) {
         var $item = $("<li><a href=>" + value.label + "</a></li>");
         $item.click(function () {
+            $bgImage.css('display', 'none');
             $mainContent.attr('data', value.url);
         });
         $menu.append($item);
