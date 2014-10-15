@@ -49,7 +49,7 @@
 	// init
 	$(document).ready(function () {
 		int windowHeight = $(window).height();
-		$menu.attr('height', windowHeight);
+		//$menu.attr('height', windowHeight);
 		$mainContent.attr('height', windowHeight);
 	});
 
