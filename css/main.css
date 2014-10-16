@@ -31,6 +31,13 @@ hr {
     vertical-align: middle;
     line-height: normal;
 }
+.share-buttons{
+	list-style: none;
+}
+
+.share-buttons li{
+	display: inline;
+}
 #content {
     display: block;
     float: left;
