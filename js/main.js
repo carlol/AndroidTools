@@ -52,6 +52,13 @@
     // init
     $(document).ready(function(){
        $mainContent.attr('height', $(window).height());
+		
+        stLight.options({
+            publisher: "f5415d92-4fb1-4420-b09b-cc91036338b9",
+            doNotHash: false,
+            doNotCopy: false,
+            hashAddressBar: false
+        });
     });
 
 }).apply(this);
