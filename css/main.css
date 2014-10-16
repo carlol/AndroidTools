@@ -5,13 +5,39 @@ html {
     height: 100%;
     overflow: hidden;
 }
+hr {
+    padding: 0px;
+    margin: 0px
+}
 #header {
     display: block;
     float: left;
     width: 20%;
 }
+#sub_header {
+    border-right: 1px solid #ddd;
+}
+#title {
+    padding: 15px;
+    margin: 0px;
+}
+#social_container {
+    height: 37px;
+    margin: 15px 15px 10px 15px;
+    text-align: center;
+}
+#social_container:span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
 #content {
     display: block;
     float: left;
     width: 80%;
+}
+#bg {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
 }
