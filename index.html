@@ -2,68 +2,65 @@
 <html lang="">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Android Tools</title>
-	<script src="./lib/jquery/jquery-1.11.1.min.js"></script>
-	<script src="./lib/uikit/js/uikit.min.js"></script>
-	<script type="text/javascript">
-		var switchTo5x = true;
-	</script>
-	<script type="text/javascript" src="./lib/shareThis/shareThis.js"></script>
-	<link rel="stylesheet" href="./lib/uikit/css/uikit.min.css">
-	<link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Tools</title>
+    <script src="./lib/jquery/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery_overscroll/jquery.overscroll.js"></script>
+    <script src="./lib/uikit/js/uikit.min.js"></script>
+    <link rel="stylesheet" href="./lib/uikit/css/uikit.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-	<div id="header" class="uk-width-2-10">
-		<div id="sub_header">
-			<h1 id="title">Android Tools</h1>
+    <div id="header" class="uk-width-2-10">
+        <div id="sub_header">
+            <h1 id="title">Android Tools</h1>
 
-			<hr/>
+            <hr/>
 
-			<!-- social -->
-			<div id="social_container">
-				<ul class="share-buttons">
-					<li>
-						<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
-							<img src="res/social_icons/Facebook.png">
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&text=:%20http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&via=carloluchessa" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">
-							<img src="res/social_icons/Twitter.png">
-						</a>
-					</li>
-					<li>
-						<a href="https://plus.google.com/share?url=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;">
-							<img src="res/social_icons/Google+.png">
-						</a>
-					</li>
-					<li>
-						<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&title=&summary=&source=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">
-							<img src="res/social_icons/LinkedIn.png">
-						</a>
-					</li>
-				</ul>
-			</div>
+            <!-- social -->
+            <div id="social_container">
+                <ul class="share_buttons">
+                    <li>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
+                            <img src="res/social_icons/social_facebook.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&text=:%20http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&via=carloluchessa" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;">
+                            <img src="res/social_icons/social_twitter.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/share?url=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;">
+                            <img src="res/social_icons/social_googleplus.png">
+                        </a>
+                    </li>
+                    <li style="display:none;">
+                        <a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&title=&summary=&source=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;">
+                            <img src="res/social_icons/LinkedIn.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
 
-			<hr/>
-		</div>
+            <hr/>
+        </div>
 
-		<!-- This is a button toggling the off-canvas sidebar -->
-		<ul id="menu_list" class="uk-tab uk-tab-left" data-uk-tab>
+        <!-- This is a button toggling the off-canvas sidebar -->
+        <ul id="menu_list" class="uk-list uk-list-striped">
 
-		</ul>
-	</div>
+        </ul>
+    </div>
 
-	<div id="content" class="uk-width-8-10">
-		<img id="bg" src="./res/img/android.jpeg" />
-		<object id="main_content" width="100%" height="100%" frameborder="0"></object>
-	</div>
+    <div id="content" class="uk-width-8-10">
+        <img id="bg" src="./res/img/android.jpeg" />
+        <object id="main_content" width="100%" height="100%" frameborder="0"></object>
+    </div>
 
-	<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

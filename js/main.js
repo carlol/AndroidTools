@@ -1,7 +1,5 @@
 (function () {
-
-    // http://romannurik.github.io/AndroidAssetStudio/index.html
-
+    
     var tools = [
         {
             label: "DPI Calculator for Android",
@@ -19,6 +17,10 @@
             label: "Json Formatter & Validator",
             url: "http://jsonformatter.curiousconcept.com/"
         }
+      /*  , {
+            label: "RegExr v2.0",
+            url: "http://www.regexr.com/"   
+        }*/
         , {
             label: "Android Arsenal",
             url: "https://android-arsenal.com/"
@@ -35,12 +37,14 @@
 
     var $mainContent = $('#main_content');
 
+    var $headerContainer = $('#header');
+
     var $menu = $('#menu_list');
-    
+
     var $bgImage = $('#bg');
 
     $.each(tools, function (i, value) {
-        var $item = $("<li><a href=>" + value.label + "</a></li>");
+        var $item = $("<li>" + value.label + "</li>");
         $item.click(function () {
             $bgImage.css('display', 'none');
             $mainContent.attr('data', value.url);
@@ -48,17 +52,29 @@
         $menu.append($item);
     });
 
-    
-    // init
-    $(document).ready(function(){
-       $mainContent.attr('height', $(window).height());
-		
-        stLight.options({
-            publisher: "f5415d92-4fb1-4420-b09b-cc91036338b9",
-            doNotHash: false,
-            doNotCopy: false,
-            hashAddressBar: false
+    /*$.each(tools, function (i, value) {
+        var $item = $("<li>" + value.label + "</li>");
+        $item.click(function () {
+            $bgImage.css('display', 'none');
+            $mainContent.attr('data', value.url);
         });
-    });
+        $menu.append($item);
+    });*/
+
+    var initFn = function () {
+        var windowHeight = $(window).height();
+        $mainContent.attr('height', windowHeight);
+
+        $headerContainer.css('height', windowHeight);
+        $headerContainer.overscroll({
+            //hoverThumbs: true,
+            direction: 'vertical'
+        });
+    };
+
+    // init
+    $(document).ready(initFn);
+
+    //$(document).resize(initFn);
 
 }).apply(this);
