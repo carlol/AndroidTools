@@ -1,5 +1,7 @@
 (function () {
-    
+
+    var activeClass = 'tab-active';
+
     var tools = [
         {
             label: "DPI Calculator for Android",
@@ -25,15 +27,21 @@
             label: "Android Arsenal",
             url: "https://android-arsenal.com/"
         }
+        /*, {
+            label: "IconsDB",
+            url: "iconsdb.com"
+        }*/
         , {
             label: "Android Holo Colors Generator",
             url: "http://android-holo-colors.com/"
         }
         , {
             label: "Android Action Bar Style Generator",
-            url: "http://jgilfelt.github.io/android-actionbarstylegenerator/#name=example&compat=holo&theme=light&actionbarstyle=solid&texture=0&hairline=0&neutralPressed=1&backColor=E4E4E4%2C100&secondaryColor=D6D6D6%2C100&tabColor=33B5E5%2C100&tertiaryColor=F2F2F2%2C100&accentColor=33B5E5%2C100&cabBackColor=FFFFFF%2C100&cabHighlightColor=33B5E5%2C100"
+            url: "http://jgilfelt.github.io/android-actionbarstylegenerator/"
         }
     ];
+
+    var $redirectUrl = $('#redirect_url');
 
     var $mainContent = $('#main_content');
 
@@ -48,6 +56,12 @@
         $item.click(function () {
             $bgImage.css('display', 'none');
             $mainContent.attr('data', value.url);
+            $menu.find('.' + activeClass).removeClass(activeClass);
+            $(this).addClass(activeClass);
+            $redirectUrl.text(value.url);
+            $redirectUrl.click(function () {
+                window.open(value.url, '_blank');
+            });
         });
         $menu.append($item);
     });
@@ -64,7 +78,6 @@
     var initFn = function () {
         var windowHeight = $(window).height();
         $mainContent.attr('height', windowHeight);
-
         $headerContainer.css('height', windowHeight);
         $headerContainer.overscroll({
             //hoverThumbs: true,
