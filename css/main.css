@@ -84,6 +84,7 @@ hr {
     border-style: solid;
     border-width: 1px;
     border-color: #DBDBDB;
+    padding-right: 10px;
 }
 .container-1 input#search::-webkit-input-placeholder {
     color: #65737e;
