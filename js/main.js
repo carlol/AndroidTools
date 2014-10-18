@@ -47,14 +47,23 @@
 
     var $headerContainer = $('#header');
 
+    var $title = $('#title');
+
     var $menu = $('#menu_list');
 
-    var $bgImage = $('#bg');
+    var $basePage = $('.base-page');
+
+    $title.click(function () {
+        $basePage.css('display', 'block');
+        $mainContent.attr('data', "");
+        $menu.find('.' + activeClass).removeClass(activeClass);
+        $redirectUrl.text("");
+    });
 
     $.each(tools, function (i, value) {
         var $item = $("<li>" + value.label + "</li>");
         $item.click(function () {
-            $bgImage.css('display', 'none');
+            $basePage.css('display', 'none');
             $mainContent.attr('data', value.url);
             $menu.find('.' + activeClass).removeClass(activeClass);
             $(this).addClass(activeClass);
