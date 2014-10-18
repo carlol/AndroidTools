@@ -113,6 +113,9 @@ hr {
 #menu_list li {
     padding: 15px;
 }
+#menu_list li:hover {
+    background: #CCFFFF;
+}
 #menu_list li.tab-active {
     background: #33b5e5;
     color: #FFF;
