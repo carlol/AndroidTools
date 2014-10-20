@@ -117,7 +117,8 @@
 
     // init
     searchFiltering();
-    $(document).ready(function () {
+
+    var initFn = function () {
         var windowHeight = $(window).height();
         $mainContent.attr('height', windowHeight);
         $headerContainer.css('height', windowHeight);
@@ -125,6 +126,10 @@
             //hoverThumbs: true,
             direction: 'vertical'
         });
-    });
+        $searchBox.width($headerContainer.width()-85);
+    };
+
+    $(document).ready(initFn);
+    $(window).resize(initFn);
 
 }).apply(this);

@@ -75,7 +75,7 @@ hr {
     background: rgba(246, 255, 255, 1);
     border: none;
     font-size: 10pt;
-    float: left;
+    position: absolute;
     color: #63717f;
     padding-left: 45px;
     -webkit-border-radius: 5px;
