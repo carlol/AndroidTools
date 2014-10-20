@@ -117,7 +117,7 @@
 
     // init
     searchFiltering();
-    $searchBox.atrt('display', 'none');
+    $searchBox.attr('display', 'none');
 
     var initFn = function () {
         var windowHeight = $(window).height();
@@ -128,7 +128,7 @@
             direction: 'vertical'
         });
         $searchBox.width($headerContainer.width()-85);
-        $searchBox.atrt('display', 'visible');
+        $searchBox.attr('display', 'visible');
     };
 
     $(document).ready(initFn);
