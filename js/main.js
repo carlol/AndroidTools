@@ -51,10 +51,10 @@
             label: "Action Bar and Tab Icon Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-actionbar.html"
         }
-        , {
+        /*, { // problem to load in <object>
             label: "Navigation Drawer Indicator Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-nav-drawer-indicator.html"
-        }
+        }*/
         , {
             label: "Simple Nine-patch Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/nine-patches.html"
