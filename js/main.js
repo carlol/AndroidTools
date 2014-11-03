@@ -105,6 +105,7 @@
                 $menu.find('.' + activeClass).removeClass(activeClass);
                 $(this).addClass(activeClass);
                 $redirectUrl.text(value.url);
+                $redirectUrl.unbind( "click" );
                 $redirectUrl.click(function () {
                     window.open(value.url, '_blank');
                 });
