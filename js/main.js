@@ -4,6 +4,11 @@
 
     var tools = [
         {
+            label: "Google developer Console",
+            url: "https://console.developers.google.com/project"
+        }
+        ,
+        {
             label: "DPI Calculator for Android",
             url: "http://jennift.com/dpical.html"
         }
