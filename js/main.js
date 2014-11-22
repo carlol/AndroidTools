@@ -29,8 +29,16 @@
             url: "http://www.google.com/design/spec/style/color.html"
         }
         , {
+            label: "jsonschema2pojo",
+            url: "http://www.jsonschema2pojo.org/"
+        }
+        , {
             label: "Json Formatter & Validator",
             url: "http://jsonformatter.curiousconcept.com/"
+        }
+        , {
+            label: "Json Viewer",
+            url: "http://jsonviewer.stack.hu/"
         }
       /*  , {
             label: "RegExr v2.0",
@@ -45,6 +53,14 @@
             url: "iconsdb.com"
         }*/
         , {
+            label: "Android Layout Finder",
+            url: "https://www.buzzingandroid.com/tools/android-layout-finder/"
+        }
+        , {
+            label: "TinyPNG",
+            url: "https://tinypng.com/"
+        }
+        , {
             label: "Notification Icon Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-notification.html"
         }
@@ -55,6 +71,10 @@
         , {
             label: "Action Bar and Tab Icon Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-actionbar.html"
+        }
+        , {
+            label: "Android Button Maker",
+            url: "http://angrytools.com/android/button/"
         }
         /*, { // problem to load in <object>
             label: "Navigation Drawer Indicator Generator",
@@ -71,6 +91,10 @@
         , {
             label: "Android Action Bar Style Generator",
             url: "http://jgilfelt.github.io/android-actionbarstylegenerator/"
+        }
+        , {
+            label: "Gradle, please",
+            url: "http://gradleplease.appspot.com/"
         }
     ];
 
