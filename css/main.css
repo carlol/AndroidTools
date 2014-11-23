@@ -56,6 +56,9 @@ hr {
 .share_buttons li {
     display: inline;
 }
+.share_buttons li a:hover {
+    color: transparent;
+}
 .share_buttons li img {
     width: 40px;
     height: 40px;
