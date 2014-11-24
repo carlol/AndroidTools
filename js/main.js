@@ -33,8 +33,8 @@
             url: "http://www.jsonschema2pojo.org/"
         }
         , {
-            label: "Json Formatter & Validator",
-            url: "http://jsonformatter.curiousconcept.com/"
+            label: "JsonLint",
+            url: "http://jsonlint.com/"
         }
         , {
             label: "Json Viewer",
