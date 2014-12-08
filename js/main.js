@@ -13,6 +13,10 @@
             url: "http://jennift.com/dpical.html"
         }
         , {
+            label: "DP/PX converter",
+            url: "http://labs.rampinteractive.co.uk/android_dp_px_calculator/"
+        }
+        , {
             label: "Hex Color Tool",
             url: "http://hexcolortool.com/"
         }
@@ -60,6 +64,10 @@
             label: "TinyPNG",
             url: "https://tinypng.com/"
         }
+        /*, { // problem to load in <object>
+            label: "UI Prototype",
+            url: "http://www.b2tsoftware.com/developer/index.php"
+        }*/
         , {
             label: "Notification Icon Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-notification.html"
