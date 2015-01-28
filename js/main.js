@@ -80,10 +80,10 @@
             label: "UI Prototype",
             url: "http://www.b2tsoftware.com/developer/index.php"
         }*/
-        , {
+        /*, {
             label: "Github - Material Design icons",
             url: "https://github.com/google/material-design-icons"
-        }
+        }*/
         , {
             label: "Notification Icon Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-notification.html"
