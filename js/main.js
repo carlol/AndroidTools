@@ -17,6 +17,14 @@
             url: "http://labs.rampinteractive.co.uk/android_dp_px_calculator/"
         }
         , {
+            label: "Android Design Tips",
+            url: "http://www.androiddesign.tips/"
+        }
+         , {
+            label: "Android Design Cheatsheet",
+            url: "http://petrnohejl.github.io/Android-Cheatsheet-For-Graphic-Designers/"
+        }
+        , {
             label: "Hex Color Tool",
             url: "http://hexcolortool.com/"
         }
@@ -28,6 +36,10 @@
             label: "Paletton",
             url: "http://paletton.com/"
         }
+//         , {
+//            label: "Material Palette",
+//            url: "http://www.materialpalette.com"
+//        }
         , {
             label: "Google Design",
             url: "http://www.google.com/design/spec/style/color.html"
@@ -69,6 +81,10 @@
             url: "http://www.b2tsoftware.com/developer/index.php"
         }*/
         , {
+            label: "Github - Material Design icons",
+            url: "https://github.com/google/material-design-icons"
+        }
+        , {
             label: "Notification Icon Generator",
             url: "http://romannurik.github.io/AndroidAssetStudio/icons-notification.html"
         }
@@ -100,10 +116,18 @@
             label: "Android Action Bar Style Generator",
             url: "http://jgilfelt.github.io/android-actionbarstylegenerator/"
         }
+        /*, {
+            label: "Roboto Font Families",
+            url: "https://gist.github.com/carlol/b2010d049b19acb157fb"
+        }*/
         , {
             label: "Gradle, please",
             url: "http://gradleplease.appspot.com/"
         }
+       /* , {
+            label: "Android Studio Tips",
+            url: "https://developer.android.com/sdk/installing/studio-tips.html"
+        }*/
     ];
 
     var $redirectUrl = $('#redirect_url');
