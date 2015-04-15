@@ -34,7 +34,7 @@
                         </a>
                     </li>
                     <li style="padding: 0 10px 0 10px;">
-                      <!-- horizontal space -->
+                        <!-- horizontal space -->
                     </li>
                     <li>
                         <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcarlol.github.io%2FAndroidTools%2F&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;">
@@ -69,9 +69,19 @@
             </div>
         </div>
 
-        <!-- This is a button toggling the off-canvas sidebar -->
-        <ul id="menu_list" class="uk-list uk-list-striped">
+        <div class="uk-tab-center">
+            <ul class="uk-tab" data-uk-tab>
+                <li class="tab_widgets uk-active"><a href="">Widgets</a>
+                </li>
+                <li class="tab_links"><a href="">Links</a>
+                </li>
+            </ul>
+        </div>
 
+        <!-- This is a button toggling the off-canvas sidebar -->
+        <ul id="menu_widget_list" class="menu_list uk-list uk-list-striped">
+        </ul>
+        <ul id="menu_link_list" class="menu_list uk-list uk-list-striped hidden">
         </ul>
     </div>
 

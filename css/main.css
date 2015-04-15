@@ -5,10 +5,16 @@ html {
     height: 100%;
     overflow: hidden;
 }
+
 hr {
     padding: 0px;
     margin: 0px
 }
+
+.hidden {
+    display: none;
+}
+
 #btn_redirect {
     position: fixed !important;
     top: 10px;
@@ -16,6 +22,7 @@ hr {
     height: 40px;
     width: 40px;
 }
+
 #redirect_url {
     position: fixed !important;
     font-size: 12px;
@@ -27,6 +34,7 @@ hr {
     bottom: 0px;
     right: 20px;
 }
+
 #header {
     display: block;
     float: left;
@@ -34,44 +42,55 @@ hr {
     border-right: 1px solid #ddd;
     padding-right: 3px;
 }
+
 #title {
     padding: 15px;
     margin: 0px;
 }
+
 #social_container {
     margin: 15px 15px 10px 15px;
     text-align: center;
 }
+
 #social_container:span {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
 }
+
 .share_buttons {
     list-style: none;
 }
+
 .share_buttons {
     padding-left: 0px;
 }
+
 .share_buttons li {
     display: inline;
 }
+
 .share_buttons li a:hover {
     color: transparent;
 }
+
 .share_buttons li img {
     width: 40px;
     height: 40px;
 }
+
 .box {
     margin: 15px 15px 0px 15px;
     height: 50px;
 }
+
 .container-1 {
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
 }
+
 .container-1 input#search {
     width: 100%;
     height: 38px;
@@ -89,20 +108,27 @@ hr {
     border-color: #DBDBDB;
     padding-right: 10px;
 }
+
 .container-1 input#search::-webkit-input-placeholder {
     color: #65737e;
 }
+
 .container-1 input#search:-moz-placeholder {
     /* Firefox 18- */
+    
     color: #65737e;
 }
+
 .container-1 input#search::-moz-placeholder {
     /* Firefox 19+ */
+    
     color: #65737e;
 }
+
 .container-1 input#search:-ms-input-placeholder {
     color: #65737e;
 }
+
 .container-1 .icon {
     position: absolute;
     top: 50%;
@@ -111,26 +137,40 @@ hr {
     z-index: 1;
     color: #4f5b66;
 }
-#menu_list {
+
+.menu_list {
     margin-top: 0px;
 }
-#menu_list li {
-    padding: 15px;
+
+.menu_list li {
+    position: relative;
+    padding: 15px 15px;
 }
-#menu_list li:hover {
+
+.menu_list li:hover {
     background: #aaa;
     color: #fff;
 }
-#menu_list li.tab-active {
+
+.menu_list li span:after {
+    content: "\f0c1";
+    font-family: FontAwesome;
+    position: absolute;
+    right: 15px;
+}
+
+.menu_list li.tab-active {
     background: #33b5e5;
     color: #FFF;
     font-weight: bold;
 }
+
 #content {
     display: block;
     float: left;
     width: 80%;
 }
+
 #bg {
     position: fixed;
     right: 0px;
