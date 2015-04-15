@@ -152,7 +152,7 @@ hr {
     color: #fff;
 }
 
-.menu_list li span:after {
+.menu_list li span.link:after {
     content: "\f0c1";
     font-family: FontAwesome;
     position: absolute;

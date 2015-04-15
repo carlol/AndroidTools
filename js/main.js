@@ -162,7 +162,7 @@
             }
             var $item = $('<li><span>' + value.label + '</span></li>');
             if (isRedirect) {
-//                $item.append('<i class="uk-icon-hover uk-icon-link"></i>');
+                $item.find('span').addClass('link');
             }
             $item.click(function () {
                 if (isRedirect) {
