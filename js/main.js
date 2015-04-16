@@ -118,6 +118,9 @@
         }, {
                 label: "Android Studio Tips",
                 url: "https://developer.android.com/sdk/installing/studio-tips.html"
+        }, {
+                label: "Warranty Check - Lookup",
+                url: "https://imeidata.net/warranty/lg"
         }
     ]
 
