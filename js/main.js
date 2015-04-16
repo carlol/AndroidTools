@@ -142,11 +142,14 @@
     var $tabWidgets = $('.tab_widgets');
     var $tabLinks = $('.tab_links');
 
+    var _ref_ = "ref";
+
     function reset() {
         $basePage.css('display', 'block');
         $mainContent.attr('data', "");
         $menuWidget.find('.' + activeClass).removeClass(activeClass);
         $redirectUrl.text("");
+        resetUrl();
     }
 
     function selectMenuItem($menu, $item) {
@@ -169,6 +172,7 @@
                     window.open(value.url, '_blank');
                 } else {
                     selectMenuItem($menu, $(this));
+                    updateUrl(value);
                     $mainContent.attr('data', value.url);
                     $basePage.css('display', 'none');
                     $redirectUrl.text(value.url);
@@ -184,10 +188,28 @@
 
     function searchFiltering() {
         var searchFilter = $searchBox.val();
-        console.log(searchFilter);
         filterMenu($menuWidget, tools.widgets, searchFilter);
         filterMenu($menuLink, tools.links, searchFilter, true);
     }
+
+    function updateUrl(value) {
+        var newUrl = window.location.pathname + ((value) ? "?" + _ref_ + "=" + value.url : "");
+        window.history.pushState("", "", newUrl);
+    }
+
+    function resetUrl() {
+        updateUrl();
+    }
+
+    function selectMenyByUrl() {
+        var ref = $.QueryString[_ref_];
+        tools.widgets.forEach(function (value, i) {
+            if (value.url == ref) {
+                $($menuWidget.find('li')[i]).click();
+            }
+        });
+    }
+
 
     $title.click(function () {
         reset();
@@ -214,11 +236,12 @@
         $mainContent.attr('height', windowHeight);
         $headerContainer.css('height', windowHeight);
         $headerContainer.overscroll({
-            //hoverThumbs: true,
             direction: 'vertical'
         });
         $searchBox.width($headerContainer.width() - 85);
         $searchBox.attr('display', 'visible');
+
+        selectMenyByUrl();
     };
 
     $(document).ready(initFn);
