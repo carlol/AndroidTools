@@ -104,6 +104,9 @@
                 label: "RegExr v2.0",
                 url: "http://www.regexr.com/"
         }, {
+                label: "MakeAppicon",
+                url: "http://makeappicon.com/"
+        }, {
                 label: "IconsDB",
                 url: "http://www.iconsdb.com/"
         }, {
