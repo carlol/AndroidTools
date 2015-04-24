@@ -37,6 +37,10 @@
                 url: "http://www.google.com/design/spec/style/color.html"
         }
         , {
+                label: "RegexPlanet",
+                url: "http://www.regexplanet.com/advanced/java/index.html"
+        }
+        , {
                 label: "jsonschema2pojo",
                 url: "http://www.jsonschema2pojo.org/"
         }
@@ -47,6 +51,10 @@
         , {
                 label: "Json Viewer",
                 url: "http://jsonviewer.stack.hu/"
+        }
+        , {
+                label: "Free Formatter",
+                url: "http://www.freeformatter.com/"
         }
         , {
                 label: "Android Arsenal",
@@ -91,6 +99,10 @@
         , {
                 label: "Gradle, please",
                 url: "http://gradleplease.appspot.com/"
+        }
+        , {
+                label: "Architecting Android",
+                url: "http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/"
         }
     ],
         links: [
