@@ -136,6 +136,9 @@
         }, {
                 label: "Warranty Check - Lookup",
                 url: "https://imeidata.net/warranty/lg"
+        }, {
+                label: "LeakCanary",
+                url: "https://github.com/square/leakcanary"
         }
     ]
 
