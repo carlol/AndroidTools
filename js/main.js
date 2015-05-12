@@ -113,6 +113,9 @@
                 label: "Material Palette",
                 url: "http://www.materialpalette.com"
         }, {
+                label: "MaterialUp",
+                url: "https://www.materialup.com/"
+        }, {
                 label: "RegExr v2.0",
                 url: "http://www.regexr.com/"
         }, {
