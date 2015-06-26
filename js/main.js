@@ -67,6 +67,9 @@
         , {
                 label: "TinyPNG",
                 url: "https://tinypng.com/"
+        }, {
+                label: "Material Design Icons",
+                url: "https://materialdesignicons.com/"
         }
         , {
                 label: "Notification Icon Generator",
