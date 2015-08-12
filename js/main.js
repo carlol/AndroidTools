@@ -13,6 +13,10 @@
                 url: "http://labs.rampinteractive.co.uk/android_dp_px_calculator/"
         }
         , {
+                label: "Google Design",
+                url: "http://design.google.com/"
+        }
+        , {
                 label: "Android Design Tips",
                 url: "http://www.androiddesign.tips/"
         }
