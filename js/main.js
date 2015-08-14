@@ -17,6 +17,10 @@
                 url: "http://design.google.com/"
         }
         , {
+                label: "Google Design Patterns (Blog)",
+                url: "http://www.androiddesignpatterns.com/"
+        }
+        , {
                 label: "Android Design Tips",
                 url: "http://www.androiddesign.tips/"
         }
