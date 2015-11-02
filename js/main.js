@@ -5,6 +5,10 @@
     var tools = {
         widgets: [
             {
+                label: "Android Push Sender",
+                url: "http://androidpush-dreamteamproject.rhcloud.com/"
+        },
+            {
                 label: "DPI Calculator for Android",
                 url: "http://jennift.com/dpical.html"
         }
