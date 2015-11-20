@@ -81,6 +81,10 @@
                 url: "http://inloop.github.io/apk-method-count/"
         }
         , {
+                label: "SQLite Viewer",
+                url: "http://inloop.github.io/sqlite-viewer/"
+        }
+        , {
                 label: "Android Layout Finder",
                 url: "https://www.buzzingandroid.com/tools/android-layout-finder/"
         }
