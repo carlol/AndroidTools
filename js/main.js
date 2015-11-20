@@ -77,6 +77,10 @@
                 url: "https://android-arsenal.com/"
         }
         , {
+                label: "Apk Method count",
+                url: "http://inloop.github.io/apk-method-count/"
+        }
+        , {
                 label: "Android Layout Finder",
                 url: "https://www.buzzingandroid.com/tools/android-layout-finder/"
         }
