@@ -124,6 +124,10 @@
                 url: "http://jgilfelt.github.io/android-actionbarstylegenerator/"
         }
         , {
+                label: "Parcelabler",
+                url: "http://www.parcelabler.com/"
+        }
+        , {
                 label: "Gradle, please",
                 url: "http://gradleplease.appspot.com/"
         }
