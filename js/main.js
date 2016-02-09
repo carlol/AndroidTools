@@ -124,10 +124,6 @@
                 url: "http://jgilfelt.github.io/android-actionbarstylegenerator/"
         }
         , {
-                label: "Direct Link Tester",
-                url: "https://developers.google.com/app-indexing/webmasters/test"
-        }
-        , {
                 label: "Parcelabler",
                 url: "http://www.parcelabler.com/"
         }
@@ -141,9 +137,12 @@
         }
     ],
         links: [
-            {
+        {
                 label: "Google developer Console",
                 url: "https://console.developers.google.com/project"
+        }, {
+                label: "Direct Link Tester",
+                url: "https://developers.google.com/app-indexing/webmasters/test"
         }, {
                 label: "Material Palette",
                 url: "http://www.materialpalette.com"
