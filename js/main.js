@@ -53,10 +53,6 @@
                 url: "http://www.google.com/design/spec/style/color.html"
         }
         , {
-                label: "Android UI/UX Libraries",
-                url: "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md"
-        }
-        , {
                 label: "RegexPlanet",
                 url: "http://www.regexplanet.com/advanced/java/index.html"
         }
@@ -153,6 +149,9 @@
         }, {
                 label: "MaterialUp",
                 url: "https://www.materialup.com/"
+        }, {
+                label: "Android UI/UX Libraries",
+                url: "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md"
         }, {
                 label: "RegExr v2.0",
                 url: "http://www.regexr.com/"
