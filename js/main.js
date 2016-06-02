@@ -51,6 +51,9 @@
         , {
                 label: "Google Design",
                 url: "http://www.google.com/design/spec/style/color.html"
+        }, {
+                label: "Device metrics",
+                url: "https://design.google.com/devices/"
         }
         , {
                 label: "RegexPlanet",
