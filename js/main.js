@@ -183,6 +183,12 @@
         }, {
                 label: "LeakCanary",
                 url: "https://github.com/square/leakcanary"
+        }, {
+                label: "Java Decompiler (GUI)",
+                url: "http://jd.benow.ca/"
+        }, {
+                label: "Decompilers online",
+                url: "http://www.javadecompilers.com/"
         }
     ]
 
