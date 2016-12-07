@@ -189,6 +189,9 @@
         }, {
                 label: "Decompilers online",
                 url: "http://www.javadecompilers.com/"
+        }, {
+                label: "Pre-launch reports Guide",
+                url: "https://support.google.com/googleplay/android-developer/answer/7002270?hl=en"
         }
     ]
 
