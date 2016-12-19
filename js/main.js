@@ -156,6 +156,9 @@
         }, {
                 label: "MaterialUp",
                 url: "https://www.materialup.com/"
+         }, {
+                label: "Material.io",
+                url: "https://material.io/"
         }, {
                 label: "Android UI/UX Libraries",
                 url: "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md"
