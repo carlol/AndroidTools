@@ -160,6 +160,9 @@
                 label: "Material.io",
                 url: "https://material.io/"
         }, {
+                label: "Asset Studio",
+                url: "http://romannurik.github.io/AndroidAssetStudio/"
+        }, {
                 label: "Android UI/UX Libraries",
                 url: "https://github.com/wasabeef/awesome-android-ui/blob/master/README.md"
         }, {
