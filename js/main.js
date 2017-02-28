@@ -142,6 +142,10 @@
                 label: "Architecting Android",
                 url: "http://fernandocejas.com/2014/09/03/architecting-android-the-clean-way/"
         }
+        , {
+                label: "lorempixel",
+                url: "http://lorempixel.com/"
+        }
     ],
         links: [
         {
