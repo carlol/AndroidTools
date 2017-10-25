@@ -119,6 +119,10 @@
                 url: "http://romannurik.github.io/AndroidAssetStudio/nine-patches.html"
         }
         , {
+                label: "Launcher icon generator",
+                url: "https://romannurik.github.io/AndroidAssetStudio/icons-launcher.html"
+        }
+        , {
                 label: "Android Holo Colors Generator",
                 url: "http://android-holo-colors.com/"
         }
